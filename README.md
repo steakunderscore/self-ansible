@@ -4,14 +4,14 @@ Project for setting up my own hosts with Ansible. This will also serve as a repl
 
 ## Goals
 
-- [ ] Install common packages
+- [X] Install common packages
  - [X] git
  - [X] lzma
  - [X] wireshark
  - [X] meld
  - [X] chromium-browser
- - [ ] curl
- - [ ] vim-full
+ - [X] curl
+ - [X] vim
 - [ ] Setup i3
  - [ ] Install packages: i3, i3lock, xbacklight and conky
 - [ ] Setup dotfiles using freshrc

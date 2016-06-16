@@ -5,3 +5,5 @@ common_packages:
   - wireshark
   - meld
   - chromium-browser
+  - curl
+  - vim-full
