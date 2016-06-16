@@ -1,0 +1,9 @@
+---
+- name: Install packages required by i3
+  become: true
+  apt:
+    state: present
+    name: "{{ item }}"
+    update_cache: yes
+    cache_valid_time: 3600
+  with_items: "{{ i3_packages }}"

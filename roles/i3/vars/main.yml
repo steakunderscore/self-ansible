@@ -1,0 +1,5 @@
+---
+i3_packages:
+  - i3
+  - feh
+  - conky
