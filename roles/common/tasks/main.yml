@@ -1,0 +1,8 @@
+---
+- name: Install packages listed in `common_packages`
+  apt:
+    state: present
+    name: "{{ item }}"
+    update_cache: yes
+    cache_valid_time: 3600
+  with_items: "{{ common_packages }}"

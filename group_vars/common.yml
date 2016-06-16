@@ -1,0 +1,7 @@
+---
+common_packages:
+  - git
+  - lzma
+  - wireshark
+  - meld
+  - chromium-browser
