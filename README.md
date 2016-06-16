@@ -25,6 +25,12 @@ These would need some changing of my fresh rc configurations:
 ## Running this Ansible playbook
 
 ```sh
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
+mkdir ~/Dev/
+git clone https://github.com/steakunderscore/self-ansible.git ~/Dev/self-ansible
 ansible-playbook localhost site.yml
 ```
 
