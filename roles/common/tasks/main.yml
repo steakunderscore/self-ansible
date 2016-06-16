@@ -1,5 +1,6 @@
 ---
 - name: Install packages listed in `common_packages`
+  become: true
   apt:
     state: present
     name: "{{ item }}"

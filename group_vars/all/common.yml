@@ -6,4 +6,4 @@ common_packages:
   - meld
   - chromium-browser
   - curl
-  - vim-full
+  - vim
